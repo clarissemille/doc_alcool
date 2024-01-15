@@ -1,9 +1,10 @@
 import React from 'react';
+import Episodes from '../components/Episodes';
 
 function Home() {
     return (
         <div>
-            <h1>Hello </h1>
+            <Episodes/>
         </div>
     );
 }
