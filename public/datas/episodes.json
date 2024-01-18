@@ -2,7 +2,7 @@
     {
         "id": 1,
         "titre" : "Episode 2",
-        "description": "Lorem",
+        "description": "Lorem10",
         "image":"image2",
         "video":"video2"
     },
@@ -26,5 +26,12 @@
         "description": "Lorem",
         "image":"image5",
         "video":"video5"
-    }    
+    },
+    {
+        "id": 6,
+        "titre" : "Episode 6",
+        "description": "Lorem",
+        "image":"image6",
+        "video":"video6"
+    }       
 ]

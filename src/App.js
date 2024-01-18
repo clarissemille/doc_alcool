@@ -1,4 +1,4 @@
-import { BrowserRouter as Route, Router, Routes } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Video from './components/Video';
 import Home from './pages/Home';
@@ -6,13 +6,12 @@ import Home from './pages/Home';
 function App() {
   return (
     <div className='App'>
-         <Router>
+         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Video />} />
             <Route path="/home" element={<Home />} />
           </Routes>
-        <Video />
-        </Router>  
+        </BrowserRouter>  
  
     </div>
   );

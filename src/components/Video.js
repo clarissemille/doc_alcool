@@ -9,19 +9,22 @@ import { useNavigate } from 'react-router-dom';
 function Video(){
     const videoTest = "https://www.youtube.com/watch?v=rFVpSwgCkCo";
     const videoIntro = "";
+    const navigate = useNavigate();
     const videoEnded= () => {
         console.log("Hey");
-       
+        navigate('/home')
+        
     }
-    const goToHome = useNavigate();
+    const passerVideo = () => {
+        console.log("Clic");
+        navigate('/home')
+        
+    }
 
     return (
         <>
             <div>
-                <button onClick={() => {
-                    goToHome("/home");
-                }}>
-                    Passer la vidéo</button>
+                <button onClick={passerVideo}>Passer la vidéo</button>
                 <div className='videoIntroWrapper'>
                     <ReactPlayer 
                     url={videoTest}
@@ -32,6 +35,7 @@ function Video(){
                     onEnded={videoEnded}
                     />      
                 </div> 
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, recusandae?</p>
                
             </div>
         </>
