@@ -28,11 +28,11 @@ function Episodes() {
     return (
         <div className='grille'>
             <div className="episode"> <img src={img} onClick={episode1} alt="" /></div>
-            <div className="episode"> <img src={img1} onClick={episode2} alt="" /></div>
+            <div className="episode"> <img src={img} onClick={episode2} alt="" /></div>
             <div className="episode"> <img src={img} onClick={episode3} alt="" /></div>
-            <div className="episode"> <img src={img1} onClick={episode4} alt="" /></div>
+            <div className="episode"> <img src={img} onClick={episode4} alt="" /></div>
             <div className="episode"> <img src={img} onClick={episode5} alt="" /></div>
-            <div className="episode"> <img src={img1} onClick={episode6} alt="" /></div>
+            <div className="episode"> <img src={img} onClick={episode6} alt="" /></div>
           
 
         </div>
