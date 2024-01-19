@@ -1,37 +1,43 @@
-[   
+[   {
+    "id": 1,
+    "titre" : "Episode 1",
+    "description": "Lorem10",
+    "image":"../assets/img/bouteille.png",
+    "video":"video2"
+},
     {
-        "id": 1,
+        "id": 2,
         "titre" : "Episode 2",
         "description": "Lorem10",
-        "image":"image2",
+        "image":"../assets/img/bouteille.png",
         "video":"video2"
     },
     {
         "id": 3,
         "titre" : "Episode 3",
         "description": "Lorem",
-        "image":"image3",
+        "image":"../assets/img/bouteille.png",
         "video":"video3"
     },
     {
         "id": 4,
         "titre" : "Episode 4",
         "description": "Lorem",
-        "image":"image4",
+        "image":"../assets/img/bouteille.png",
         "video":"video4"
     },
     {
         "id": 5,
         "titre" : "Episode 5",
         "description": "Lorem",
-        "image":"image5",
+        "image":"../assets/img/bouteille.png",
         "video":"video5"
     },
     {
         "id": 6,
         "titre" : "Episode 6",
         "description": "Lorem",
-        "image":"image6",
+        "image":"../assets/img/bouteille.png",
         "video":"video6"
     }       
 ]

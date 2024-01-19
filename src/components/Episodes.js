@@ -3,12 +3,13 @@ import Episode from './Episode';
 import '../styles/Episodes.css'
 import img from '../assets/img/bouteille.png';
 import img1 from '../assets/img/bouteille1.png';
+import episodes from '../datas/episodes.json';
 
 
 function Episodes() {
     const episode1 = () => {
         console.log("Episode 1");
-    }
+    };
     const episode2 = () => {
         console.log("Episode 2");
     }
@@ -27,12 +28,25 @@ function Episodes() {
 
     return (
         <div className='grille'>
-            <div className="episode"> <img src={img} onClick={episode1} alt="" /></div>
-            <div className="episode"> <img src={img} onClick={episode2} alt="" /></div>
+            
+                {episodes && episodes.map(episode => {
+                    return(
+                        <div>
+                        <div className='box' key={episode.id}>
+                        <img src={img} onClick={episode1} alt="" /> 
+                            <p>Titre : {episode.titre}</p>
+                            <p>Description : {episode.description}</p>
+                        </div>
+                        </div>
+                )})}
+                
+            
+            
+            {/* <div className="episode"> <img src={img} onClick={episode2} alt="" /></div>
             <div className="episode"> <img src={img} onClick={episode3} alt="" /></div>
             <div className="episode"> <img src={img} onClick={episode4} alt="" /></div>
             <div className="episode"> <img src={img} onClick={episode5} alt="" /></div>
-            <div className="episode"> <img src={img} onClick={episode6} alt="" /></div>
+            <div className="episode"> <img src={img} onClick={episode6} alt="" /></div> */}
           
 
         </div>
