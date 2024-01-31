@@ -4,7 +4,7 @@ import episode1 from '../assets/img/episode1.png'
 import episode2 from '../assets/img/episode2.png'
 import episode3 from '../assets/img/episode3.png'
 import episode4 from '../assets/img/episode4.png'
-import Episode1 from '../components/Episode1';
+import Episode1 from './Episode1';
 import { useNavigate } from 'react-router-dom';
 
 
@@ -17,12 +17,15 @@ function Home() {
     }
     let fiche2 = () => {
         console.log("Episode 2");
+        navigate('/episode2')
     }
     let fiche3 = () => {
         console.log("Episode 3");
+        navigate('/episode3')
     }
     let fiche4 = () => {
         console.log("Episode 4");
+        navigate('/episode4')
     }
 
     return (

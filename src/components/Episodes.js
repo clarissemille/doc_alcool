@@ -1,5 +1,5 @@
 import React from 'react';
-import Episode from './Episode1';
+import Episode from '../pages/Episode1';
 import '../styles/Episodes.css'
 import img from '../assets/img/bouteille.png';
 import img1 from '../assets/img/bouteille1.png';

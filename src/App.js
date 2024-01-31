@@ -2,7 +2,11 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Video from './components/Video';
 import Home from './pages/Home';
-import Episode1 from './components/Episode1';
+import Episode1 from './pages/Episode1';
+import Episode2 from './pages/Episode2';
+import Episode3 from './pages/Episode3';
+import Episode4 from './pages/Episode4';
+
 
 function App() {
   return (
