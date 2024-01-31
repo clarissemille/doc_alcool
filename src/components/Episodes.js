@@ -1,5 +1,5 @@
 import React from 'react';
-import Episode from './Episode';
+import Episode from './Episode1';
 import '../styles/Episodes.css'
 import img from '../assets/img/bouteille.png';
 import img1 from '../assets/img/bouteille1.png';
@@ -40,16 +40,16 @@ function Episodes() {
                         </div>
                 )})}
                 
+                </div>
             
-            
-            {/* <div className="episode"> <img src={img} onClick={episode2} alt="" /></div>
+            /* <div className="episode"> <img src={img} onClick={episode2} alt="" /></div>
             <div className="episode"> <img src={img} onClick={episode3} alt="" /></div>
             <div className="episode"> <img src={img} onClick={episode4} alt="" /></div>
             <div className="episode"> <img src={img} onClick={episode5} alt="" /></div>
-            <div className="episode"> <img src={img} onClick={episode6} alt="" /></div> */}
+            <div className="episode"> <img src={img} onClick={episode6} alt="" /></div> */
           
 
-        </div>
+      
     );
 }
 
