@@ -6,6 +6,7 @@ import Episode1 from './pages/Episode1';
 import Episode2 from './pages/Episode2';
 import Episode3 from './pages/Episode3';
 import Episode4 from './pages/Episode4';
+import Bonus from './pages/Bonus';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
             <Route path="/episode2" element={<Episode2 />} />
             <Route path="/episode3" element={<Episode3 />} />
             <Route path="/episode4" element={<Episode4 />} />
+            <Route path="/bonus" element={<Bonus />} />
           </Routes>
         </BrowserRouter>  
  

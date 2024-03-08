@@ -1,10 +1,6 @@
 import React from 'react';
 import '../styles/Home.css';
-import episode1 from '../assets/img/episode1.png'
-import episode2 from '../assets/img/episode2.png'
-import episode3 from '../assets/img/episode3.png'
-import episode4 from '../assets/img/episode4.png'
-import Episode1 from './Episode1';
+
 import { useNavigate } from 'react-router-dom';
 
 
@@ -27,29 +23,20 @@ function Home() {
         console.log("Episode 4");
         navigate('/episode4')
     }
+    let bonus = () => {
+        console.log("Bonus");
+        navigate('/bonus')
+    }
 
     return (
         <div className='homepage'>
-            <div className='leftside'>
-                    <div className='firstepisode'>
-                        <img className="episode1" src={episode1} alt="" onClick={fiche1} />
-                    </div>
-                    <div className='secondepisode'>
-                        <img className="episode2" src={episode2} alt="" onClick={fiche2} />
-                    </div>
-            </div>
-            <div className='rightside'>
-                <div className='thrisepisode'>
-                    <img className="episode3" src={episode3} alt="" onClick={fiche3}/>
-                </div>
-                <div className='forthepisode'>
-                    <img className="episode4" src={episode4} alt="" onClick={fiche4}/>
-                </div>
-            </div>
-            
-
-            
+                        <img className="episode1" src="/assets/img/episode1.png" alt="" onClick={fiche1} />
+                        <img className="episode2" src="/assets/img/episode2.png" alt="" onClick={fiche2} />
+                        <img className="episode3" src="/assets/img/episode3.png" alt="" onClick={fiche3}/>
+                        <img className="episode4" src="/assets/img/episode4.png" alt="" onClick={fiche4}/>
+                        <img className="bonus" src="/assets/img/Bonus.png" alt="" onClick={bonus}/>
         </div>
+            
     );
 }
 
