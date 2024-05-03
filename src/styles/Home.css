@@ -95,23 +95,36 @@ body{
     left: 124px;
 }
 
+.bonus:hover{
+   transform: scale(1.2);
+}
+
 .sources{
     position: fixed;
     top : 497px;
     left: 406px;
 }
+.sources:hover{
+    transform: scale(1.2);
+ }
 
 .medias{
     position: fixed;
     top : 650px;
     left: 930px;
 }
+.medias:hover{
+    transform: scale(1.2);
+ }
 
 .histoire{
     position: fixed;
     top : 503px;
     left: 1354px;
 }
+.histoire:hover{
+    transform: scale(1.2);
+ }
 
 /* illus */
 .map{
@@ -242,7 +255,7 @@ body{
 
 .valise {
     position: fixed;
-    top : 480px;
+    top : 550px;
     left: 310px;
 }
 
