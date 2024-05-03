@@ -1,14 +1,14 @@
 import React from 'react';
 
-function Bonus() {
+function Sources() {
 
     return (
         <div>
             <div className='page'>
-                <h1>Bonus</h1>
+                <h1>Sources</h1>
             </div>
         </div>
     );
 }
 
-export default Bonus;
+export default Sources;

@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Bonus() {
+function Medias() {
 
     return (
         <div>
@@ -11,4 +11,4 @@ function Bonus() {
     );
 }
 
-export default Bonus;
+export default Medias;

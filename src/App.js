@@ -7,6 +7,9 @@ import Episode2 from './pages/Episode2';
 import Episode3 from './pages/Episode3';
 import Episode4 from './pages/Episode4';
 import Bonus from './pages/Bonus';
+import Sources from './pages/Sources';
+import Medias from './pages/Medias';
+import Histoire from './pages/Histoire';
 
 
 function App() {
@@ -21,6 +24,10 @@ function App() {
             <Route path="/episode3" element={<Episode3 />} />
             <Route path="/episode4" element={<Episode4 />} />
             <Route path="/bonus" element={<Bonus />} />
+            <Route path="/sources" element={<Sources />} />
+            <Route path="/medias" element={<Medias />} />
+            <Route path="/histoire" element={<Histoire />} />
+            
           </Routes>
         </BrowserRouter>  
  

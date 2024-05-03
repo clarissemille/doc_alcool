@@ -13,39 +13,41 @@ body{
     display: flex;
 }
 
+/* épisodes */
+
 
 .episode1, .episode2, .episode3, .episode4, .bonus{
-    width: 325px;
-    height: 350px;
+    width: 260px;
+    height: 290px;
 }
 
 
+
+
 .episode1{
-    transform: rotate(350deg);
     position: fixed;
-    top: 2%;
-    left: 4%;
+    top: 275px;
+    left: 72px;
 
 
 }
 
 .episode1:hover{
-    transform: rotate(0deg);
+    transform: rotate(10deg);
     animation-duration: 1s;
     cursor: pointer;
 }
 
 .episode2{
-    transform: rotate(10deg);
     position: fixed;
-    top: 50%;
-    left: 20%;
+    top: 59px;
+    left: 513px;
 
 
 }
 
 .episode2:hover{
-    transform: rotate(0deg);
+    transform: rotate(-10deg);
     animation-duration: 1s;
     cursor: pointer;
 
@@ -54,14 +56,13 @@ body{
 
 .episode3{
     position: fixed;
-    transform: rotate(350deg);
-    left: 40%;
-    top: 10%;
+    left: 1050px;
+    top: 263px
 
 
 }
 .episode3:hover{
-    transform: rotate(0deg);
+    transform: rotate(10deg);
     animation-duration: 1s;
     cursor: pointer;
 
@@ -70,32 +71,202 @@ body{
 
 .episode4{
     position: fixed;
-    transform: rotate(10deg);
-    left: 60%;
-    top: 50%;
+    left: 1442px;
+    top: 136px;
 
 }
 
 .episode4:hover{
-    transform: rotate(0deg);
+    transform: rotate(-10deg);
     animation-delay: 3s;
     cursor: pointer;
 
+}
+/* Annexes */
+
+.bonus, .sources, .medias, .histoire{
+    width : 180px;
+    height: 223px;
 }
 
 .bonus{
     position: fixed;
-    left: 80%;
-    transform: rotate(10deg);
+    top : 690px;
+    left: 124px;
+}
 
+.sources{
+    position: fixed;
+    top : 497px;
+    left: 406px;
+}
+
+.medias{
+    position: fixed;
+    top : 650px;
+    left: 930px;
+}
+
+.histoire{
+    position: fixed;
+    top : 503px;
+    left: 1354px;
+}
+
+/* illus */
+.map{
+    position: fixed;
+    height: 1040px;
+    z-index: -1;
+}
+
+.trinquer{
+    position: fixed;
+    top : 379px;
+    left: 584px;
+}
+
+.apero{
+    position : fixed;
+    top: 220px;
+    left: 255px;
+    transform: rotate(-40deg);
+
+    
+
+}
+.apero2{
+    position : fixed;
+    top: 330px;
+    left: 315px;
 
 }
 
-.bonus:hover{
-    transform: rotate(0deg);
-    animation-delay: 3s;
-    cursor: pointer;
+.vin{
+    position: fixed;
+    top: 79px;
+    left: 773px;
 
 }
 
+.vin2{
+    position: fixed;
+    top: 199px;
+    left: 733px;
+    transform: rotate(40deg);
+
+
+}
+.digestif{
+    position: fixed;
+    left: 975px;
+    top: 333px
+}
+
+.digestif2{
+    position: fixed;
+    left: 985px;
+    top: 440px;
+    transform: rotate(-60deg);
+
+}
+
+
+
+.irish_coffee{
+    position: fixed;
+    top: 150px;
+    left: 1390px;
+}
+
+.irish_coffee2{
+    position: fixed;
+    top: 250px;
+    left: 1350px;
+    transform: rotate(60deg);
+
+}
+
+.university {
+    position: fixed;
+    top: 740px;
+    left: 1300px;
+}
+
+.les_episodes{
+    position: fixed;
+    left: 975px;
+    top: 100px
+}
+
+.lire_episodes{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
+.annexes {
+    position: fixed;
+    top : 730px;
+    left: 700px;
+}
+
+.introduction{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+
+/* déco */
+
+.etoile {
+    position: fixed;
+    top : 550px;
+    left: 20px;
+    transform: rotate(-40deg);
+
+}
+
+.etoile2 {
+    position: fixed;
+    top : 550px;
+    left: 1000px;
+}
+.etoile3{
+    position: fixed;
+    top : 550px;
+    left: 1520px;
+    transform: rotate(-40deg);
+}
+
+.valise {
+    position: fixed;
+    top : 480px;
+    left: 310px;
+}
+
+.biere {
+    position: fixed;
+    top : 550px;
+    left: 1220px;
+}
+
+.exclamation {
+    position: fixed;
+    top : 490px;
+    left: 900px;
+}
+
+.exclamation2 {
+    position: fixed;
+    top : 730px;
+    left: 1200px;
+}
+
+.vague {
+    position: fixed;
+    top : 780px;
+    left: 300px;
+}
 
