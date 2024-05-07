@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../styles/Home.css';
 
 import { useNavigate } from 'react-router-dom';
@@ -7,6 +7,11 @@ import { useNavigate } from 'react-router-dom';
 
 function Home() {
     const navigate = useNavigate();
+    const [imglanguage, setImgLanguage] = useState("assets/img/france.png")
+    const [language, setLanguage] = useState(false)
+    const [imglangue1, setImgLangue1] = useState("assets/img/korea.png")
+    const [imglangue2, setImgLangue2] = useState("assets/img/uk.png")
+
     let fiche1 = () => {
         navigate('/episode1')
     }
@@ -30,6 +35,16 @@ function Home() {
     }
     let histoire = () => {
         navigate('/histoire')
+    }
+
+   let changeLanguage = () => {
+    if(language===false){
+        setLanguage(true)
+        document.querySelector(".langue").style.visibility="visible"
+    }else{
+        setLanguage(false)
+        document.querySelector(".langue").style.visibility="hidden"
+    }
     }
 
     return (
@@ -71,6 +86,11 @@ function Home() {
                         <img className="exclamation2" src="/assets/img/illus/exclamations.png" alt="" />
                         <img className="vague" src="/assets/img/illus/vague.png" alt="" />
 
+                        <img className="language" src={imglanguage} alt=""  onClick={changeLanguage} />
+                        <div className='langue'>
+                            <img src={imglangue1} alt="" />
+                            <img src={imglangue2} alt="" />
+                        </div>
 
                         
 

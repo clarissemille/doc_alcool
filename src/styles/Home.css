@@ -91,7 +91,7 @@ body{
 
 .bonus{
     position: fixed;
-    top : 690px;
+    top : 650px;
     left: 124px;
 }
 
@@ -202,8 +202,8 @@ body{
 
 .university {
     position: fixed;
-    top: 740px;
-    left: 1300px;
+    bottom: 20px;
+    right: 30px;
 }
 
 .les_episodes{
@@ -283,3 +283,22 @@ body{
     left: 300px;
 }
 
+
+
+/* Langues */
+.language{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
+
+.langue{
+    position: fixed;
+    background-color: #D9D9D9;
+    bottom: 75px;
+    right: 15px;
+    height: 93px;
+    width: 45px;
+    border-radius: 100px;
+    visibility: hidden;
+}
