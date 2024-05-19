@@ -4,7 +4,7 @@ function Episode4() {
 
     return (
         <div>
-            <h1>Episode 4</h1>
+            <h1>Episode </h1>
         </div>
     );
 }
