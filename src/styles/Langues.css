@@ -1,0 +1,17 @@
+/* Langues */
+.language{
+    position: fixed;
+    bottom: 5px;
+    right: 15px;
+}
+
+.langue{
+    position: fixed;
+    background-color: #D9D9D9;
+    bottom: 75px;
+    right: 15px;
+    height: 137px;
+    width: 45px;
+    border-radius: 100px;
+    visibility: hidden;
+}

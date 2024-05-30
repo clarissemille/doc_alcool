@@ -1,0 +1,76 @@
+[
+    {
+        "valeur" : "Accueil",
+        "langue" : 
+            {
+                "fr" : "Accueil",
+                "en" : "Homepage",
+                "kr" : "홈페이지"
+            }
+
+        
+    },
+    {
+        "valeur" : "Suivant",
+        "langue" : 
+            {
+                "fr" : "Épisode suivant",
+                "en" : "Next episode",
+                "kr" : "다음 에피소드"
+            }
+
+        
+    },
+
+    {
+        "valeur" : "Episode1",
+        "langue" : {
+            "fr" : "assets/img/episodes/episode1/episodeApero.png",
+            "en" : "assets/img/episodes/episode1/episodeApero.png",
+            "kr" : "assets/img/episodes/episode1/episodeApero.png"
+        }
+    },
+    {
+        "valeur" : "Problematique1",
+        "langue" : {
+            "fr" : "assets/img/episodes/episode1/problematique.png",
+            "en" : "assets/img/episodes/episode1/problematique.png",
+            "kr" : "assets/img/episodes/episode1/problematique.png"
+        }
+    },
+
+    {
+        "valeur" : "Question1A",
+        "langue" : {
+            "fr" : "D’où viennent ces alcools coréens ?",
+            "en" : "Where do these Korean alcohols come from ?",
+            "kr" : "이 한국 술들은 어디에서 왔나요 ?"
+        }
+    }, 
+    {
+        "valeur" : "Question1B",
+        "langue" : {
+            "fr" : "Quelle est leur histoire ? ",
+            "en" : "What is their history ?",
+            "kr" : "그들의 역사는 무엇인가요 ?"
+        }
+    },
+    {
+        "valeur" : "Texte1A",
+        "langue" : {
+            "fr" : "Lorem ipsum dolor sit amet",
+            "en" : "Lorem ipsum dolor sit amet",
+            "kr" : "Lorem ipsum dolor sit amet"
+        }
+    },
+    {
+        "valeur" : "Texte1B",
+        "langue" : {
+            "fr" : "Lorem ipsum dolor sit amet",
+            "en" : "Lorem ipsum dolor sit amet",
+            "kr" : "Lorem ipsum dolor sit amet"
+        }
+    }
+
+
+]
