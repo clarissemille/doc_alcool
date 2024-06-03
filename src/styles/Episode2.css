@@ -1,0 +1,67 @@
+.vinDeTable{
+    display: flex;
+    margin-left: 35%;
+    margin-top: -30px;
+    height: 350px;
+    width: 650px;
+    
+}
+
+.videoEp2{
+    display: flex;
+    width: 90%;
+    height: 60%;
+    justify-content: space-around;
+    margin-left: 5%;
+    margin-top: -60px;
+ }
+
+ .leftVideo2{
+    height: 100%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: -200px;
+    color: #2A5F9E;
+ }
+
+ .imgVideo2{
+    width: 65%;
+    height: 600px;
+    margin-top: -50px;
+}
+
+.problematique2{
+    height: 450px;
+    width: 350px;
+    margin: 20px;
+}
+
+ .image1{
+    height: 800px;
+    width: 800px;
+    margin-top: 100px;
+ }
+
+ .image2{
+    height: 400px;
+    width: 600px;
+    margin-left: 50%;
+    margin-top: -20px;
+ }
+
+ .TxtEp2{
+    display: flex;
+    width: 98%;
+    margin-left: 4%;
+  
+ }
+
+ .ep2txt{
+    width: 55%;
+ }
+
+ .ep2img{
+    width: 40%;
+ }

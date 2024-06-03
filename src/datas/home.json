@@ -1,0 +1,137 @@
+[
+
+    {
+        "valeur" : "ListeEpisodes",
+        "langue" : 
+            {
+                "fr" : "assets/img/fr/lireTousLesEpisodes.png",
+                "en" : "assets/img/en/lireTousLesEpisodes.png",
+                "kr" : "assets/img/kr/lireTousLesEpisodes.png"
+            }
+
+        
+    },
+    {
+        "valeur" : "Introduction",
+        "langue" : 
+            {
+                "fr" : "assets/img/fr/introduction.png",
+                "en" : "assets/img/fr/introduction.png",
+                "kr" : "assets/img/kr/introduction.png"
+            }
+
+        
+    },
+    {
+        "valeur" : "LesEpisodes",
+        "langue" : 
+            {
+                "fr" : "assets/img/fr/les_episodes.png",
+                "en" : "assets/img/en/LesEpisodes.png",
+                "kr" : "assets/img/kr/lesEpisodes.png"
+            }
+
+        
+    },
+    {
+        "valeur" : "Annexes",
+        "langue" : 
+            {
+                "fr" : "assets/img/fr/annexes.png",
+                "en" : "assets/img/en/annexes.png",
+                "kr" : "assets/img/kr/annexes.png"
+            }
+
+        
+    },
+    {
+        "valeur" : "Episode1",
+        "langue" : 
+            {
+                "fr" : "assets/img/fr/episodes/episode1.png",
+                "en" : "assets/img/en/episode1.png",
+                "kr" : "assets/img/kr/episode1.png"
+            }
+
+        
+    },
+    {
+        "valeur" : "Episode2",
+        "langue" : 
+            {
+                "fr" : "assets/img/fr/episodes/episode2.png",
+                "en" : "assets/img/en/episode2.png",
+                "kr" : "assets/img/kr/episode2.png"
+            }
+
+        
+    },
+    {
+        "valeur" : "Episode3",
+        "langue" : 
+            {
+                "fr" : "assets/img/fr/episodes/episode3.png",
+                "en" : "assets/img/en/episode3.png",
+                "kr" : "assets/img/kr/episode3.png"
+            }
+
+        
+    },
+    {
+        "valeur" : "Episode4",
+        "langue" : 
+            {
+                "fr" : "assets/img/fr/episodes/episode4.png",
+                "en" : "assets/img/en/episode4.png",
+                "kr" : "assets/img/kr/episode4.png"
+            }
+
+        
+    }, 
+    {
+        "valeur" : "Bonus",
+        "langue" : 
+            {
+                "fr" : "assets/img/fr/annexes/Bonus.png",
+                "en" : "assets/img/fr/annexes/Bonus.png",
+                "kr" : "assets/img/kr/Bonus.png"
+            }
+
+        
+    },
+    {
+        "valeur" : "Sources",
+        "langue" : 
+            {
+                "fr" : "assets/img/fr/annexes/Sources.png",
+                "en" : "assets/img/fr/annexes/Sources.png",
+                "kr" : "assets/img/kr/Sources.png"
+            }
+
+        
+    },
+    {
+        "valeur" : "Medias",
+        "langue" : 
+            {
+                "fr" : "assets/img/fr/annexes/Medias.png",
+                "en" : "assets/img/en/Medias.png",
+                "kr" : "assets/img/kr/Medias.png"
+            }
+
+        
+    },  
+    {
+        "valeur" : "Histoire",
+        "langue" : 
+            {
+                "fr" : "assets/img/fr/annexes/Histoire.png",
+                "en" : "assets/img/en/Histoire.png",
+                "kr" : "assets/img/kr/Histoire.png"
+            }
+
+        
+    }
+
+
+]

@@ -39,22 +39,23 @@ function Episode1() {
                         <img   src={getTranslation("Problematique1")} alt="Problématique" className="problematique" />
                         <p>{getTranslation("Question1A")}</p>
                         <p>{getTranslation("Question1B")}</p>
-                        <img src="assets/img/episodes/episode1/bouteille.png" alt="bouteille" className='imgBouteille' />
+                        <img src="assets/img/fr/episodes/episode1/bouteille.png" alt="bouteille" className='imgBouteille' />
                     </div>
-                    <img className="imgVideo" src="assets/img/episodes/episode1/VideoEp1.png" alt="" />
+                    <img className="imgVideo" src="assets/img/fr/episodes/episode1/VideoEp1.png" alt="" />
 
                 </div>
                 <div>
                    
-                        <img src="assets/img/episodes/episode1/Ep1txt1.png" alt="" />
+                        
+                    <img src="assets/img/fr/episodes/episode1/Ep1txt1.png" alt="" />
                      
-                    <img src="assets/img/episodes/episode1/imgs1.png" alt="" />
+                    <img src="assets/img/fr/episodes/episode1/imgs1.png" alt="" />
 
 
                 </div>
                 <div>
-                    <img src="assets/img/episodes/episode1/imgs2.png" alt="" />
-                    <img src="assets/img/episodes/episode1/Ep1txt1.png" alt="" />
+                    <img src="assets/img/fr/episodes/episode1/imgs2.png" alt="" />
+                    <img src="assets/img/fr/episodes/episode1/Ep1txt1.png" alt="" />
                      
 
                

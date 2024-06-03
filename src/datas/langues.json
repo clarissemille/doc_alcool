@@ -11,6 +11,17 @@
         
     },
     {
+        "valeur" : "Precedent",
+        "langue" : 
+            {
+                "fr" : "Épisode précédent",
+                "en" : "Previous episode",
+                "kr" : "이전 에피소드"
+            }
+
+        
+    },
+    {
         "valeur" : "Suivant",
         "langue" : 
             {
@@ -25,17 +36,17 @@
     {
         "valeur" : "Episode1",
         "langue" : {
-            "fr" : "assets/img/episodes/episode1/episodeApero.png",
-            "en" : "assets/img/episodes/episode1/episodeApero.png",
-            "kr" : "assets/img/episodes/episode1/episodeApero.png"
+            "fr" : "assets/img/fr/episodes/episode1/episodeApero.png",
+            "en" : "assets/img/fr/episodes/episode1/episodeApero.png",
+            "kr" : "assets/img/fr/episodes/episode1/episodeApero.png"
         }
     },
     {
         "valeur" : "Problematique1",
         "langue" : {
-            "fr" : "assets/img/episodes/episode1/problematique.png",
-            "en" : "assets/img/episodes/episode1/problematique.png",
-            "kr" : "assets/img/episodes/episode1/problematique.png"
+            "fr" : "assets/img/fr/episodes/episode1/problematique.png",
+            "en" : "assets/img/fr/episodes/episode1/problematique.png",
+            "kr" : "assets/img/fr/episodes/episode1/problematique.png"
         }
     },
 
@@ -70,7 +81,58 @@
             "en" : "Lorem ipsum dolor sit amet",
             "kr" : "Lorem ipsum dolor sit amet"
         }
+    }, 
+    {
+        "valeur" : "Episode2",
+        "langue" : {
+            "fr" : "assets/img/fr/episodes/episode2/episode2.png",
+            "en" : "assets/img/fr/episodes/episode2/episode2.png",
+            "kr" : "assets/img/fr/episodes/episode2/episode2.png"
+        }
+    },
+    {
+        "valeur" : "Problematique2",
+        "langue" : {
+            "fr" : "assets/img/fr/episodes/episode1/problematique.png",
+            "en" : "assets/img/fr/episodes/episode1/problematique.png",
+            "kr" : "assets/img/fr/episodes/episode1/problematique.png"
+        }
+    },
+
+    {
+        "valeur" : "Partie1",
+        "langue" : {
+            "fr" : "assets/img/fr/episodes/episode2/pb.png",
+            "en" : "assets/img/fr/episodes/episode2/pb.png",
+            "kr" : "assets/img/fr/episodes/episode2/pb.png"
+        }
+    }, 
+    {
+        "valeur" : "Partie2",
+        "langue" : {
+            "fr" : "assets/img/fr/episodes/episode2/pb2.png",
+            "en" : "assets/img/fr/episodes/episode2/pb2.png",
+            "kr" : "assets/img/fr/episodes/episode2/pb2.png"
+        }
+    }, 
+    {
+        "valeur" : "Texte1A",
+        "langue" : {
+            "fr" : "Lorem ipsum dolor sit amet",
+            "en" : "Lorem ipsum dolor sit amet",
+            "kr" : "Lorem ipsum dolor sit amet"
+        }
+    },
+    {
+        "valeur" : "Texte1B",
+        "langue" : {
+            "fr" : "Lorem ipsum dolor sit amet",
+            "en" : "Lorem ipsum dolor sit amet",
+            "kr" : "Lorem ipsum dolor sit amet"
+        }
     }
+
+
 
 
 ]

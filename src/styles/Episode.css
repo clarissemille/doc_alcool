@@ -45,3 +45,11 @@
    height: 350px;
    width: 300px;
 }
+
+.previousNextEpisode{
+   height: 100%;
+   width: 20%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}

@@ -97,33 +97,41 @@ body{
 
 .bonus:hover{
    transform: scale(1.2);
+   cursor: pointer;
 }
 
 .sources{
     position: fixed;
     top : 497px;
     left: 406px;
+    width: 240px;
+    height: 200px;
 }
 .sources:hover{
     transform: scale(1.2);
+    cursor: pointer;
  }
 
 .medias{
     position: fixed;
-    top : 650px;
+    bottom : 40px;
     left: 930px;
 }
 .medias:hover{
     transform: scale(1.2);
+    cursor: pointer;
  }
 
 .histoire{
     position: fixed;
     top : 503px;
     left: 1354px;
+    width: 250px;
+    height: 250px;
 }
 .histoire:hover{
     transform: scale(1.2);
+    cursor: pointer;
  }
 
 /* illus */
