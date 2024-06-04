@@ -82,6 +82,7 @@
             "kr" : "Lorem ipsum dolor sit amet"
         }
     }, 
+    
     {
         "valeur" : "Episode2",
         "langue" : {
@@ -115,6 +116,7 @@
             "kr" : "assets/img/fr/episodes/episode2/pb2.png"
         }
     }, 
+    
     {
         "valeur" : "Texte1A",
         "langue" : {
@@ -129,6 +131,63 @@
             "fr" : "Lorem ipsum dolor sit amet",
             "en" : "Lorem ipsum dolor sit amet",
             "kr" : "Lorem ipsum dolor sit amet"
+        }
+    }, 
+    {
+        "valeur" : "Episode3",
+        "langue" : {
+            "fr" : "assets/img/fr/episodes/episode3/episode3.png",
+            "en" : "assets/img/fr/episodes/episode3/episode3.png",
+            "kr" : "assets/img/fr/episodes/episode3/episode3.png"
+        }
+    },
+    {
+        "valeur" : "Problematique3",
+        "langue" : {
+            "fr" : "assets/img/fr/episodes/episode1/problematique.png",
+            "en" : "assets/img/fr/episodes/episode1/problematique.png",
+            "kr" : "assets/img/fr/episodes/episode1/problematique.png"
+        }
+    },
+    {
+        "valeur" : "imgs3A",
+        "langue" : {
+            "fr" : "assets/img/fr/episodes/episode3/imgs3A.png",
+            "en" : "assets/img/fr/episodes/episode3/imgs3A.png",
+            "kr" : "assets/img/fr/episodes/episode3/imgs3A.png"
+        }
+    },
+
+    {
+        "valeur" : "Ep3Partie1",
+        "langue" : {
+            "fr" : "assets/img/fr/episodes/episode3/partie1.png",
+            "en" : "assets/img/fr/episodes/episode3/partie1.png",
+            "kr" : "assets/img/fr/episodes/episode3/partie1.png"
+        }
+    }, 
+    {
+        "valeur" : "Ep3Partie2",
+        "langue" : {
+            "fr" : "assets/img/fr/episodes/episode3/partie2.png",
+            "en" : "assets/img/fr/episodes/episode3/partie2.png",
+            "kr" : "assets/img/fr/episodes/episode3/partie2.png"
+        }
+    }, 
+    {
+        "valeur" : "Ep3Partie3",
+        "langue" : {
+            "fr" : "assets/img/fr/episodes/episode3/partie3.png",
+            "en" : "assets/img/fr/episodes/episode3/partie3.png",
+            "kr" : "assets/img/fr/episodes/episode3/partie3.png"
+        }
+    }, 
+    {
+        "valeur" : "Ep3Partie4",
+        "langue" : {
+            "fr" : "assets/img/fr/episodes/episode3/partie4.png",
+            "en" : "assets/img/fr/episodes/episode3/partie4.png",
+            "kr" : "assets/img/fr/episodes/episode3/partie4.png"
         }
     }
 

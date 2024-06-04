@@ -37,35 +37,48 @@ function Episode3() {
                 </div>
                 <div>
 
-                    <img src={getTranslation("Episode1")} alt="Episode 1" />
+                    <img src={getTranslation("Episode3")} alt="Episode 3" />
                 </div>
     
                 <div className='videoEp1'>
                     <div className='leftVideo'>
-                        <img   src={getTranslation("Problematique1")} alt="Problématique" className="problematique" />
-                        <p>{getTranslation("Question1A")}</p>
-                        <p>{getTranslation("Question1B")}</p>
-                        <img src="assets/img/fr/episodes/episode1/bouteille.png" alt="bouteille" className='imgBouteille' />
+                        <img   src={getTranslation("Problematique3")} alt="Problématique" className="problematique" />
+                        <img   src={getTranslation("imgs3A")} alt="Problématique" className="problematique" />
+
                     </div>
                     <img className="imgVideo" src="assets/img/fr/episodes/episode1/VideoEp1.png" alt="" />
 
                 </div>
+
+
+                <img   src={getTranslation("Ep3Partie1")} alt="Problématique" className="problematique" />
                 <div>
                    
                         
                     <img src="assets/img/fr/episodes/episode1/Ep1txt1.png" alt="" />
                      
-                    <img src="assets/img/fr/episodes/episode1/imgs1.png" alt="" />
+                    <img src="assets/img/fr/episodes/episode3/imgs3B.png" alt="" />
 
 
                 </div>
+                <img   src={getTranslation("Ep3Partie2")} alt="Problématique" className="problematique" />
+
                 <div>
-                    <img src="assets/img/fr/episodes/episode1/imgs2.png" alt="" />
+                    <img src="assets/img/fr/episodes/episode3/imgs3C.png" alt="" />
+                    <img src="assets/img/fr/episodes/episode1/Ep1txt1.png" alt="" />
+                </div>
+                <img   src={getTranslation("Ep3Partie3")} alt="Problématique" className="problematique" />
+                <div> 
                     <img src="assets/img/fr/episodes/episode1/Ep1txt1.png" alt="" />
                      
+                    <img src="assets/img/fr/episodes/episode3/imgs3D.png" alt="" />
 
-               
+                </div>
+                <img   src={getTranslation("Ep3Partie4")} alt="Problématique" className="problematique" />
 
+                <div>
+                    <img src="assets/img/fr/episodes/episode3/imgs3E.png" alt="" />
+                    <img src="assets/img/fr/episodes/episode1/Ep1txt1.png" alt="" />
 
                 </div>
 
