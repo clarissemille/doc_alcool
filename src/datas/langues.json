@@ -3,7 +3,7 @@
         "valeur" : "Accueil",
         "langue" : 
             {
-                "fr" : "Accueil",
+                "fr" : "assets/img/fr/retourAccueil.png",
                 "en" : "Homepage",
                 "kr" : "홈페이지"
             }
@@ -239,7 +239,90 @@
             "en" : "assets/img/fr/episodes/episode4/Ep4Txt2.png",
             "kr" : "assets/img/fr/episodes/episode4/Ep4Txt2.png"
         }
+    }, 
+    {
+        "valeur" : "Sources",
+        "langue" : {
+            "fr" : "assets/img/fr/annexes/sources/sources.png",
+            "en" : "assets/img/fr/annexes/sources/sources.png",
+            "kr" : "assets/img/fr/annexes/sources/sources.png"
+        }
+    }, 
+    {
+        "valeur" : "sourcesBiblio1",
+        "langue" : {
+            "fr" : "assets/img/fr/annexes/sources/sourcesBiblio1.png",
+            "en" : "assets/img/fr/annexes/sources/sourcesBiblio1.png",
+            "kr" : "assets/img/fr/annexes/sources/sourcesBiblio1.png"
+        }
+    }, 
+    {
+        "valeur" : "sourcesBiblio2",
+        "langue" : {
+            "fr" : "assets/img/fr/annexes/sources/sourcesBiblio2.png",
+            "en" : "assets/img/fr/annexes/sources/sourcesBiblio2.png",
+            "kr" : "assets/img/fr/annexes/sources/sourcesBiblio2.png"
+        }
+    }, 
+    {
+        "valeur" : "Index",
+        "langue" : {
+            "fr" : "assets/img/fr/annexes/index/index.png",
+            "en" : "assets/img/fr/annexes/index/index.png",
+            "kr" : "assets/img/fr/annexes/index/index.png"
+        }
+    }, 
+    {
+        "valeur" : "IndexL1",
+        "langue" : {
+            "fr" : "assets/img/fr/annexes/index/IndexL1.png",
+            "en" : "assets/img/fr/annexes/index/IndexL1.png",
+            "kr" : "assets/img/fr/annexes/index/IndexL1.png"
+        }
+    }, 
+    
+    {
+        "valeur" : "IndexEp1",
+        "langue" : {
+            "fr" : "assets/img/fr/annexes/index/IndexEp1.png",
+            "en" : "assets/img/fr/annexes/index/IndexEp1.png",
+            "kr" : "assets/img/fr/annexes/index/IndexEp1.png"
+        }
+    }, 
+    {
+        "valeur" : "IndexEp2",
+        "langue" : {
+            "fr" : "assets/img/fr/annexes/index/IndexEp2.png",
+            "en" : "assets/img/fr/annexes/index/IndexEp2.png",
+            "kr" : "assets/img/fr/annexes/index/IndexEp2.png"
+        }
+    },
+    {
+        "valeur" : "IndexEp3",
+        "langue" : {
+            "fr" : "assets/img/fr/annexes/index/IndexEp3.png",
+            "en" : "assets/img/fr/annexes/index/IndexEp3.png",
+            "kr" : "assets/img/fr/annexes/index/IndexEp3.png"
+        }
+    },
+    {
+        "valeur" : "IndexEp4",
+        "langue" : {
+            "fr" : "assets/img/fr/annexes/index/IndexEp4.png",
+            "en" : "assets/img/fr/annexes/index/IndexEp4.png",
+            "kr" : "assets/img/fr/annexes/index/IndexEp4.png"
+        }
+    },
+    {
+        "valeur" : "IndexL3",
+        "langue" : {
+            "fr" : "assets/img/fr/annexes/index/IndexL3.png",
+            "en" : "assets/img/fr/annexes/index/IndexL3.png",
+            "kr" : "assets/img/fr/annexes/index/IndexL3.png"
+        }
     }
+   
+
 
 
 

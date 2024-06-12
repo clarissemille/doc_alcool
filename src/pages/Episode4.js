@@ -27,7 +27,7 @@ function Episode4() {
         <>
             <div className='episode'>
                 <div className='header'>
-                    <p onClick={accueil}> {getTranslation("Accueil")}</p>
+                <img src={getTranslation("Accueil")} alt="" onClick={accueil} className='retourAccueil'/>
                     <p onClick={previous}>{getTranslation("Precedent")}</p>
                     
                 </div>

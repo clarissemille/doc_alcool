@@ -12,6 +12,12 @@
    justify-content:space-between;
 }
 
+.retourAccueil{
+   height: 80px;
+   width: 100px;
+   margin-top: 40px;
+   margin-left: -40px;
+}
 
 
 .videoEp1{

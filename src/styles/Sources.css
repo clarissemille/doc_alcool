@@ -1,0 +1,19 @@
+.container{
+    width: 100%;
+    display: flex;
+}
+.sourcesLeft{
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+}
+.sourcesRight{
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+    margin-left: 2%;
+}
+
+.sourcesImgs2{
+    margin-top: -26%;
+}
