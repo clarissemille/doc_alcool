@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import "../styles/Episode.css";
+import "../styles/Episode4.css";
 import data from "../datas/langues.json";
 import Langues from '../components/Langues';
 import { useNavigate } from 'react-router-dom';
@@ -33,38 +33,37 @@ function Episode4() {
                 </div>
                 <div>
 
-                    <img src={getTranslation("Episode1")} alt="Episode 1" />
+                    <img src={getTranslation("Episode4")} alt="Episode 4" className='IrishCoffee' />
                 </div>
     
                 <div className='videoEp1'>
                     <div className='leftVideo'>
-                        <img   src={getTranslation("Problematique1")} alt="Problématique" className="problematique" />
-                        <p>{getTranslation("Question1A")}</p>
-                        <p>{getTranslation("Question1B")}</p>
-                        <img src="assets/img/fr/episodes/episode1/bouteille.png" alt="bouteille" className='imgBouteille' />
+                        <img   src={getTranslation("Problematique4")} alt="Problématique" className="problematique" />
+                    
+                        <img src="assets/img/fr/episodes/episode4/imgs4A.png" alt="bouteille" className='imgs4A' />
                     </div>
-                    <img className="imgVideo" src="assets/img/fr/episodes/episode1/VideoEp1.png" alt="" />
+                    <img  src="assets/img/fr/episodes/episode1/VideoEp1.png" alt='' className="imgVideo" />
 
                 </div>
+                <img   src={getTranslation("Ep4Partie1")} alt="Problématique" className="partie1" />
+
                 <div>
                    
                         
-                    <img src="assets/img/fr/episodes/episode1/Ep1txt1.png" alt="" />
+                <img   src={getTranslation("Ep4Txt1")} alt="Problématique" className="" />
                      
-                    <img src="assets/img/fr/episodes/episode1/imgs1.png" alt="" />
+                    <img src="assets/img/fr/episodes/episode4/imgs4B.png" alt="" />
 
 
                 </div>
-                <div>
-                    <img src="assets/img/fr/episodes/episode1/imgs2.png" alt="" />
-                    <img src="assets/img/fr/episodes/episode1/Ep1txt1.png" alt="" />
-                     
+                <img   src={getTranslation("Ep4Partie2")} alt="Problématique" className="partie2" />
 
-               
-
+                <div className='Ep4partie2'>
+                        
+                    <img src="assets/img/fr/episodes/episode4/imgs4C.png" alt="" className='imgPartie2' />
+                    <img   src={getTranslation("Ep4Txt2")} alt="Problématique" className="txtPartie2" />
 
                 </div>
-
              
 
             </div>

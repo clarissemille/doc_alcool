@@ -1,0 +1,60 @@
+.Digestif{
+    height: 350px;
+    width: 650px;
+    margin-left: 300px;
+    margin-top: -70px;
+}
+
+.videoEp3{
+    display: flex;
+    width: 90%;
+    height: 60%;
+    justify-content: space-around;
+    margin-left: 5%;
+ }
+
+ .imgVideo{
+    margin-top: -70px;
+    width: 65%;
+
+ }
+
+ .leftVideo{
+    margin-top: -160px;
+ }
+
+ .imgs3A{
+    margin-top: -200px;
+    margin-left: -60px;
+    width: 1500px;
+    height: 1500px;
+ }
+
+ .Ep3Partie1, .Ep3Partie3{
+    margin-left: -50%;
+ } 
+
+ .Ep3Partie2, .Ep3Partie4{
+    margin-left: 500px;
+
+ }
+
+ .parties{
+    display: flex;
+ }
+
+ .partie4{
+    display: flex;
+    width: 90%;
+ }
+
+ .imgpartie4{
+    height: 520px;
+    width: 3000px;
+    margin-left: 3px;
+ }
+
+ .img2partie4{
+    margin-left: -530px;
+ }
+ 

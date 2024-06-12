@@ -189,6 +189,56 @@
             "en" : "assets/img/fr/episodes/episode3/partie4.png",
             "kr" : "assets/img/fr/episodes/episode3/partie4.png"
         }
+    }, 
+    {
+        "valeur" : "Episode4",
+        "langue" : {
+            "fr" : "assets/img/fr/episodes/episode4/irishcoffe.png",
+            "en" : "assets/img/fr/episodes/episode4/irishcoffe.png",
+            "kr" : "assets/img/fr/episodes/episode4/irishcoffe.png"
+        }
+    },
+    {
+        "valeur" : "Problematique4",
+        "langue" : {
+            "fr" : "assets/img/fr/episodes/episode4/problematique4.png",
+            "en" : "assets/img/fr/episodes/episode4/problematique4.png",
+            "kr" : "assets/img/fr/episodes/episode4/problematique4.png"
+        }
+    
+    },
+
+    {
+        "valeur" : "Ep4Partie1",
+        "langue" : {
+            "fr" : "assets/img/fr/episodes/episode4/Ep4partie1.png",
+            "en" : "assets/img/fr/episodes/episode4/Ep4partie1.png",
+            "kr" : "assets/img/fr/episodes/episode4/Ep4partie1.png"
+        }
+    }, 
+    {
+        "valeur" : "Ep4Txt1",
+        "langue" : {
+            "fr" : "assets/img/fr/episodes/episode4/txt1.png",
+            "en" : "assets/img/fr/episodes/episode4/txt1.png",
+            "kr" : "assets/img/fr/episodes/episode4/txt1.png"
+        }
+    }, 
+    {
+        "valeur" : "Ep4Partie2",
+        "langue" : {
+            "fr" : "assets/img/fr/episodes/episode4/Ep4partie2.png",
+            "en" : "assets/img/fr/episodes/episode4/Ep4partie2.png",
+            "kr" : "assets/img/fr/episodes/episode4/Ep4partie2.png"
+        }
+    }, 
+    {
+        "valeur" : "Ep4Txt2",
+        "langue" : {
+            "fr" : "assets/img/fr/episodes/episode4/Ep4Txt2.png",
+            "en" : "assets/img/fr/episodes/episode4/Ep4Txt2.png",
+            "kr" : "assets/img/fr/episodes/episode4/Ep4Txt2.png"
+        }
     }
 
 
