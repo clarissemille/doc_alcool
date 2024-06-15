@@ -89,6 +89,9 @@
    cursor: pointer;
    visibility: hidden;
 }
+.btnRetour:hover{
+   transform: scale(1.3);
+}
 
 .imgVideo:hover{
    cursor: pointer;
