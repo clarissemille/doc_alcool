@@ -42,6 +42,9 @@ function Home() {
     let histoire = () => {
         navigate('/histoire')
     }
+    let introduction = () => {
+        navigate('/')
+    }
 
    
 
@@ -49,7 +52,7 @@ function Home() {
         <div className='homepage'>
 
                         <img className="lire_episodes" src={getTranslation("ListeEpisodes")} alt="" />
-                        <img className="introduction" src={getTranslation("Introduction")} alt="" />
+                        <img className="introduction" src={getTranslation("Introduction")} alt="" onClick={introduction}/>
                         <img className="les_episodes" src={getTranslation("LesEpisodes")} alt=""/>
                         <img className="annexes" src={getTranslation("Annexes")} alt="" />
                         
@@ -60,7 +63,7 @@ function Home() {
 
                         <img className="bonus" src={getTranslation("Bonus")} alt="" onClick={bonus}/>
                         <img className="sources" src={getTranslation("Sources")} alt="" onClick={sources}/>
-                        <img className="medias" src={getTranslation("Medias")} alt="" onClick={medias}/>
+                        {/* <img className="medias" src={getTranslation("Medias")} alt="" onClick={medias}/> */}
                         <img className="histoire" src={getTranslation("Histoire")} alt="" onClick={histoire}/>
     
     

@@ -4,8 +4,8 @@
         "langue" : 
             {
                 "fr" : "assets/img/fr/retourAccueil.png",
-                "en" : "Homepage",
-                "kr" : "홈페이지"
+                "en" : "assets/img/en/retourAccueil.png",
+                "kr" : "assets/img/kr/retourAccueil.png"
             }
 
         
@@ -14,9 +14,9 @@
         "valeur" : "Precedent",
         "langue" : 
             {
-                "fr" : "Épisode précédent",
-                "en" : "Previous episode",
-                "kr" : "이전 에피소드"
+                "fr" : "assets/img/fr/episodePrecedent.png",
+                "en" : "assets/img/en/episodePrecedent.png ",
+                "kr" : "assets/img/kr/episodePrecedent.png"
             }
 
         
@@ -25,12 +25,20 @@
         "valeur" : "Suivant",
         "langue" : 
             {
-                "fr" : "Épisode suivant",
-                "en" : "Next episode",
-                "kr" : "다음 에피소드"
+                "fr" : "assets/img/fr/episodeSuivant.png",
+                "en" : "assets/img/en/episodeSuivant.png",
+                "kr" : "assets/img/kr/episodeSuivant.png"
             }
 
         
+    },
+    {
+        "valeur" : "videoIntroImg",
+        "langue" : {
+            "fr" : "assets/img/fr/videoIntroImg.png",
+            "en" : "assets/img/fr/videoIntroImg.png",
+            "kr" : "assets/img/fr/videoIntroImg.png"
+        }
     },
 
     {
@@ -44,9 +52,17 @@
     {
         "valeur" : "Problematique1",
         "langue" : {
-            "fr" : "assets/img/fr/episodes/episode1/problematique.png",
-            "en" : "assets/img/fr/episodes/episode1/problematique.png",
-            "kr" : "assets/img/fr/episodes/episode1/problematique.png"
+            "fr" : "assets/img/fr/episodes/episode1/problematique1.png",
+            "en" : "assets/img/en/episodes/episode1/problematique1.png",
+            "kr" : "assets/img/kr/episodes/episode1/problematique1.png"
+        }
+    },
+    {
+        "valeur" : "video1Img",
+        "langue" : {
+            "fr" : "assets/img/fr/episodes/episode1/video1Img.png",
+            "en" : "assets/img/fr/episodes/episode1/video1Img.png",
+            "kr" : "assets/img/fr/episodes/episode1/video1Img.png"
         }
     },
 
@@ -67,19 +83,19 @@
         }
     },
     {
-        "valeur" : "Texte1A",
+        "valeur" : "Ep1txt1",
         "langue" : {
-            "fr" : "Lorem ipsum dolor sit amet",
-            "en" : "Lorem ipsum dolor sit amet",
-            "kr" : "Lorem ipsum dolor sit amet"
+            "fr" :  "assets/img/fr/episodes/episode1/ep1txt1.png",
+            "en" : "assets/img/en/episodes/episode1/ep1txt1.png",
+            "kr" : "assets/img/kr/episodes/episode1/ep1txt1.png"
         }
     },
     {
-        "valeur" : "Texte1B",
+        "valeur" : "Ep1txt2",
         "langue" : {
-            "fr" : "Lorem ipsum dolor sit amet",
-            "en" : "Lorem ipsum dolor sit amet",
-            "kr" : "Lorem ipsum dolor sit amet"
+            "fr" : "assets/img/fr/episodes/episode1/ep1txt2.png",
+            "en" : "assets/img/en/episodes/episode1/ep1txt2.png",
+            "kr" : "assets/img/kr/episodes/episode1/ep1txt2.png"
         }
     }, 
     
@@ -94,9 +110,17 @@
     {
         "valeur" : "Problematique2",
         "langue" : {
-            "fr" : "assets/img/fr/episodes/episode1/problematique.png",
-            "en" : "assets/img/fr/episodes/episode1/problematique.png",
-            "kr" : "assets/img/fr/episodes/episode1/problematique.png"
+            "fr" : "assets/img/fr/episodes/episode2/problematique2.png",
+            "en" : "assets/img/en/episodes/episode2/problematique2.png",
+            "kr" : "assets/img/kr/episodes/episode2/problematique2.png"
+        }
+    },
+    {
+        "valeur" : "video2Img",
+        "langue" : {
+            "fr" : "assets/img/fr/episodes/episode2/video2Img.png",
+            "en" : "assets/img/fr/episodes/episode2/video2Img.png",
+            "kr" : "assets/img/fr/episodes/episode2/video2Img.png"
         }
     },
 
@@ -104,16 +128,33 @@
         "valeur" : "Partie1",
         "langue" : {
             "fr" : "assets/img/fr/episodes/episode2/pb.png",
-            "en" : "assets/img/fr/episodes/episode2/pb.png",
-            "kr" : "assets/img/fr/episodes/episode2/pb.png"
+            "en" : "assets/img/en/episodes/episode2/pb.png",
+            "kr" : "assets/img/kr/episodes/episode2/pb.png"
         }
     }, 
     {
         "valeur" : "Partie2",
         "langue" : {
             "fr" : "assets/img/fr/episodes/episode2/pb2.png",
-            "en" : "assets/img/fr/episodes/episode2/pb2.png",
-            "kr" : "assets/img/fr/episodes/episode2/pb2.png"
+            "en" : "assets/img/en/episodes/episode2/pb2.png",
+            "kr" : "assets/img/kr/episodes/episode2/pb2.png"
+        }
+    }, 
+
+    {
+        "valeur" : "Ep2txt1",
+        "langue" : {
+            "fr" :  "assets/img/fr/episodes/episode2/ep2txt1.png",
+            "en" : "assets/img/en/episodes/episode2/ep2txt1.png",
+            "kr" : "assets/img/kr/episodes/episode2/ep2txt1.png"
+        }
+    },
+    {
+        "valeur" : "Ep2txt2",
+        "langue" : {
+            "fr" : "assets/img/fr/episodes/episode2/ep2txt2.png",
+            "en" : "assets/img/en/episodes/episode2/ep2txt2.png",
+            "kr" : "assets/img/kr/episodes/episode2/ep2txt2.png"
         }
     }, 
     
@@ -144,11 +185,20 @@
     {
         "valeur" : "Problematique3",
         "langue" : {
-            "fr" : "assets/img/fr/episodes/episode1/problematique.png",
-            "en" : "assets/img/fr/episodes/episode1/problematique.png",
-            "kr" : "assets/img/fr/episodes/episode1/problematique.png"
+            "fr" : "assets/img/fr/episodes/episode3/problematique3.png",
+            "en" : "assets/img/en/episodes/episode3/problematique3.png",
+            "kr" : "assets/img/kr/episodes/episode3/problematique3.png"
         }
     },
+    {
+        "valeur" : "video3Img",
+        "langue" : {
+            "fr" : "assets/img/fr/episodes/episode3/video3Img.png",
+            "en" : "assets/img/fr/episodes/episode3/video3Img.png",
+            "kr" : "assets/img/fr/episodes/episode3/video3Img.png"
+        }
+    },
+    
     {
         "valeur" : "imgs3A",
         "langue" : {
@@ -162,32 +212,64 @@
         "valeur" : "Ep3Partie1",
         "langue" : {
             "fr" : "assets/img/fr/episodes/episode3/partie1.png",
-            "en" : "assets/img/fr/episodes/episode3/partie1.png",
-            "kr" : "assets/img/fr/episodes/episode3/partie1.png"
+            "en" : "assets/img/en/episodes/episode3/partie1.png",
+            "kr" : "assets/img/kr/episodes/episode3/partie1.png"
         }
     }, 
     {
         "valeur" : "Ep3Partie2",
         "langue" : {
             "fr" : "assets/img/fr/episodes/episode3/partie2.png",
-            "en" : "assets/img/fr/episodes/episode3/partie2.png",
-            "kr" : "assets/img/fr/episodes/episode3/partie2.png"
+            "en" : "assets/img/en/episodes/episode3/partie2.png",
+            "kr" : "assets/img/kr/episodes/episode3/partie2.png"
         }
     }, 
     {
         "valeur" : "Ep3Partie3",
         "langue" : {
             "fr" : "assets/img/fr/episodes/episode3/partie3.png",
-            "en" : "assets/img/fr/episodes/episode3/partie3.png",
-            "kr" : "assets/img/fr/episodes/episode3/partie3.png"
+            "en" : "assets/img/en/episodes/episode3/partie3.png",
+            "kr" : "assets/img/kr/episodes/episode3/partie3.png"
         }
     }, 
     {
         "valeur" : "Ep3Partie4",
         "langue" : {
             "fr" : "assets/img/fr/episodes/episode3/partie4.png",
-            "en" : "assets/img/fr/episodes/episode3/partie4.png",
-            "kr" : "assets/img/fr/episodes/episode3/partie4.png"
+            "en" : "assets/img/en/episodes/episode3/partie4.png",
+            "kr" : "assets/img/kr/episodes/episode3/partie4.png"
+        }
+    }, 
+    {
+        "valeur" : "Ep3txt1",
+        "langue" : {
+            "fr" :  "assets/img/fr/episodes/episode3/ep3txt1.png",
+            "en" : "assets/img/en/episodes/episode3/ep3txt1.png",
+            "kr" : "assets/img/kr/episodes/episode3/ep3txt1.png"
+        }
+    },
+    {
+        "valeur" : "Ep3txt2",
+        "langue" : {
+            "fr" : "assets/img/fr/episodes/episode3/ep3txt2.png",
+            "en" : "assets/img/en/episodes/episode3/ep3txt2.png",
+            "kr" : "assets/img/kr/episodes/episode3/ep3txt2.png"
+        }
+    }, 
+    {
+        "valeur" : "Ep3txt3",
+        "langue" : {
+            "fr" :  "assets/img/fr/episodes/episode3/ep3txt3.png",
+            "en" : "assets/img/en/episodes/episode3/ep3txt3.png",
+            "kr" : "assets/img/kr/episodes/episode3/ep3txt3.png"
+        }
+    },
+    {
+        "valeur" : "Ep3txt4",
+        "langue" : {
+            "fr" : "assets/img/fr/episodes/episode3/ep3txt4.png",
+            "en" : "assets/img/en/episodes/episode3/ep3txt4.png",
+            "kr" : "assets/img/kr/episodes/episode3/ep3txt4.png"
         }
     }, 
     {
@@ -202,42 +284,50 @@
         "valeur" : "Problematique4",
         "langue" : {
             "fr" : "assets/img/fr/episodes/episode4/problematique4.png",
-            "en" : "assets/img/fr/episodes/episode4/problematique4.png",
-            "kr" : "assets/img/fr/episodes/episode4/problematique4.png"
+            "en" : "assets/img/en/episodes/episode4/problematique4.png",
+            "kr" : "assets/img/kr/episodes/episode4/problematique4.png"
         }
     
+    },
+    {
+        "valeur" : "video4Img",
+        "langue" : {
+            "fr" : "assets/img/fr/episodes/episode4/video4Img.png",
+            "en" : "assets/img/fr/episodes/episode4/video4Img.png",
+            "kr" : "assets/img/fr/episodes/episode4/video4Img.png"
+        }
     },
 
     {
         "valeur" : "Ep4Partie1",
         "langue" : {
             "fr" : "assets/img/fr/episodes/episode4/Ep4partie1.png",
-            "en" : "assets/img/fr/episodes/episode4/Ep4partie1.png",
-            "kr" : "assets/img/fr/episodes/episode4/Ep4partie1.png"
+            "en" : "assets/img/en/episodes/episode4/Ep4partie1.png",
+            "kr" : "assets/img/kr/episodes/episode4/Ep4partie1.png"
         }
     }, 
     {
         "valeur" : "Ep4Txt1",
         "langue" : {
             "fr" : "assets/img/fr/episodes/episode4/txt1.png",
-            "en" : "assets/img/fr/episodes/episode4/txt1.png",
-            "kr" : "assets/img/fr/episodes/episode4/txt1.png"
+            "en" : "assets/img/en/episodes/episode4/ep4Txt1.png",
+            "kr" : "assets/img/kr/episodes/episode4/ep4Txt1.png"
         }
     }, 
     {
         "valeur" : "Ep4Partie2",
         "langue" : {
             "fr" : "assets/img/fr/episodes/episode4/Ep4partie2.png",
-            "en" : "assets/img/fr/episodes/episode4/Ep4partie2.png",
-            "kr" : "assets/img/fr/episodes/episode4/Ep4partie2.png"
+            "en" : "assets/img/en/episodes/episode4/Ep4partie2.png",
+            "kr" : "assets/img/kr/episodes/episode4/Ep4partie2.png"
         }
     }, 
     {
         "valeur" : "Ep4Txt2",
         "langue" : {
             "fr" : "assets/img/fr/episodes/episode4/Ep4Txt2.png",
-            "en" : "assets/img/fr/episodes/episode4/Ep4Txt2.png",
-            "kr" : "assets/img/fr/episodes/episode4/Ep4Txt2.png"
+            "en" : "assets/img/en/episodes/episode4/Ep4Txt2.png",
+            "kr" : "assets/img/kr/episodes/episode4/Ep4Txt2.png"
         }
     }, 
     {

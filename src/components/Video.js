@@ -1,44 +1,61 @@
-import React from 'react'
+import React, { useState } from 'react'
 import ReactPlayer from 'react-player'
 import "../styles/Video.css"
-import Home from '../pages/Home';
 import { useNavigate } from 'react-router-dom';
+import data from "../datas/langues.json";
+import Langues from './Langues';
 
 
 
 function Video(){
     const videoTest = "https://www.youtube.com/watch?v=rFVpSwgCkCo";
-    const videoIntro = "";
     const navigate = useNavigate();
     const videoEnded= () => {
-        console.log("Hey");
         navigate('/home')
         
     }
+
+    const [langue, setLangue] = useState('fr');
+    const getTranslation = (key) => {
+        const entry = data.find(item => item.valeur === key);
+        return entry ? entry.langue[langue] : key;
+    };
     const passerVideo = () => {
+
         console.log("Clic");
         navigate('/home')
         
     }
 
+    const lancerVideo = () => {
+        document.querySelector(".imgVideo").style.visibility="hidden";
+        document.querySelector(".videoIntro").style.visibility="visible";
+
+    }
+
     return (
         <>
-            <div>
-                <button onClick={passerVideo}>Passer la vidéo</button>
-                <div className='videoIntroWrapper'>
+            <div className='IntroductionVideo'>
+                <img src="assets/img/fr/passerVideo.png" alt="" onClick={passerVideo} className='passerVideo' />
+                <div className=''>
+                    <img   src={getTranslation("videoIntroImg")} alt="texte 1" className="imgVideo" onClick={lancerVideo}/>
                     <ReactPlayer 
                     url={videoTest}
                     controls
-                    width="100%"
-                    height="90%"
+                    width="95%"
+                    height="100%"
                     className="videoIntro"
                     onEnded={videoEnded}
                     />      
                 </div> 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, recusandae?</p>
+
+
                
             </div>
+            <Langues langue={langue} setLangue={setLangue} />
+
         </>
+
 
     )
 }

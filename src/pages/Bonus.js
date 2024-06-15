@@ -18,6 +18,21 @@ function Episode4() {
         console.log("ok");
         navigate('/home')
     }
+
+
+    const ep1 = () => {
+        navigate('/episode1')
+    }
+
+    const ep2 = () => {
+        navigate('/episode2')
+    }
+    const ep3 = () => {
+        navigate('/episode3')
+    }
+    const ep4 = () => {
+        navigate('/episode4')
+    }
   
 
 
@@ -35,10 +50,10 @@ function Episode4() {
                 <img   src={getTranslation("IndexL1")} alt="Problématique" className="IndexL1" />
                     
                 <div className='IndexL2'>   
-                        <img   src={getTranslation("IndexEp1")} alt="Problématique" className="IndexEp IndexEp1" />
-                        <img   src={getTranslation("IndexEp2")} alt="Problématique" className="IndexEp " />
-                        <img   src={getTranslation("IndexEp3")} alt="Problématique" className="IndexEp " />
-                        <img   src={getTranslation("IndexEp4")} alt="Problématique" className="IndexEp " />
+                        <img   src={getTranslation("IndexEp1")} alt="Problématique" className="IndexEp IndexEp1" onClick={ep1}/>
+                        <img   src={getTranslation("IndexEp2")} alt="Problématique" className="IndexEp " onClick={ep2}/>
+                        <img   src={getTranslation("IndexEp3")} alt="Problématique" className="IndexEp " onClick={ep3}/>
+                        <img   src={getTranslation("IndexEp4")} alt="Problématique" className="IndexEp " onClick={ep4}/>
                 </div>
                 <img   src={getTranslation("IndexL3")} alt="Problématique" className="IndexL3" />
 

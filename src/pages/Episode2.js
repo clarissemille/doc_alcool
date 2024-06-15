@@ -4,9 +4,35 @@ import "../styles/Episode2.css";
 import data from "../datas/langues.json";
 import Langues from '../components/Langues';
 import { useNavigate } from 'react-router-dom';
+import ReactPlayer from 'react-player';
 
 function Episode2() {
     const navigate = useNavigate();
+
+    const videoTest = "https://www.youtube.com/watch?v=rFVpSwgCkCo";
+    const videoEnded= () => {
+        document.querySelector(".Video1").style.visibility="hidden";
+        document.querySelector(".videoEpisode1").style.visibility="hidden";
+        document.querySelector(".btnRetour").style.visibility="hidden";
+        document.querySelector(".imgVideo").style.visibility="visible";
+        
+    }
+    const lancerVideo = () => {
+        document.querySelector(".imgVideo").style.visibility="hidden";
+        document.querySelector(".Video1").style.visibility="visible";
+        document.querySelector(".videoEpisode1").style.visibility="visible";
+        document.querySelector(".btnRetour").style.visibility="visible";
+
+
+    }
+
+    const btnRetour = () => {
+        document.querySelector(".imgVideo").style.visibility="visible";
+        document.querySelector(".Video1").style.visibility="hidden";
+        document.querySelector(".videoEpisode1").style.visibility="hidden";
+        document.querySelector(".btnRetour").style.visibility="hidden";
+    }
+
 
     const [langue, setLangue] = useState('fr');
 
@@ -32,8 +58,8 @@ function Episode2() {
                 <div className='header'>
                 <img src={getTranslation("Accueil")} alt="" onClick={accueil} className='retourAccueil'/>
                     <div className='previousNextEpisode'>
-                        <p onClick={previous}>{getTranslation("Precedent")}</p>
-                        <p onClick={next}>{getTranslation("Suivant")}</p>
+                        <img src={getTranslation("Precedent")} alt="" onClick={previous} className='epPrecedent'/>
+                        <img src={getTranslation("Suivant")} alt="" onClick={next} className='epSuivant'/>
                     </div>
                 </div>
                 <div>
@@ -47,21 +73,32 @@ function Episode2() {
                         <img   src={getTranslation("Partie1")} alt="Problématique" className="problematique2" />
                         <img src="assets/img/fr/episodes/episode2/imgs2A.png" alt="" className='image1' />
                     </div>
-                    <img className="imgVideo2" src="assets/img/fr/episodes/episode1/VideoEp1.png" alt="" />
+                    <img   src={getTranslation("video2Img")} alt="texte 1" className="imgVideo" onClick={lancerVideo}/>
+                    <div className='Video1'>
+                    <ReactPlayer 
+                    url={videoTest}
+                    controls
+                    width="90%"
+                    height="85%"
+                    className="videoEpisode1"
+                    onEnded={videoEnded}
+                    />
+                    <img src="assets/img/fr/retour.png" alt="" onClick={btnRetour} className='btnRetour' />
+                </div> 
 
                 </div>
                     <img src="assets/img/fr/episodes/episode2/imgs2B.png" alt="" className='image2' />
                 <div className='TxtEp2'>
                    
                         
-                    <img src="assets/img/fr/episodes/episode1/Ep1txt1.png" alt="" className='ep2txt' />
+                <img   src={getTranslation("Ep2txt2")} alt="texte 1"  />
                     <img src="assets/img/fr/episodes/episode2/imgs2C.png" alt="" className='ep2img'/>
 
 
                 </div>
                 <div className='TxtEp2'>
                     <img src="assets/img/fr/episodes/episode2/imgs2D.png" alt="" className='ep2img' />
-                    <img src="assets/img/fr/episodes/episode1/Ep1txt1.png" alt="" className='ep2txt'/>
+                    <img   src={getTranslation("Ep2txt2")} alt="texte 1"  />
                      
 
                

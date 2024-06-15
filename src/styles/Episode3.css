@@ -5,6 +5,20 @@
     margin-top: -70px;
 }
 
+.epPrecedent{
+    height: 80px;
+    width: 130px;
+    margin-top: 40px;
+    margin-left: 15px;
+ }
+ 
+ .epSuivant{
+    height: 80px;
+    width: 100px;
+    margin-top: 40px;
+ }
+ 
+
 .videoEp3{
     display: flex;
     width: 90%;
@@ -50,7 +64,7 @@
 
  .imgpartie4{
     height: 520px;
-    width: 3000px;
+    width: 2000px;
     margin-left: 3px;
  }
 
@@ -58,3 +72,6 @@
     margin-left: -530px;
  }
  
+ .Ep3PTxt4{
+    margin-left: -450px;
+ }

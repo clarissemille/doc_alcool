@@ -3,9 +3,34 @@ import "../styles/Episode4.css";
 import data from "../datas/langues.json";
 import Langues from '../components/Langues';
 import { useNavigate } from 'react-router-dom';
+import ReactPlayer from 'react-player';
 
 function Episode4() {
     const navigate = useNavigate();
+
+    const videoTest = "https://www.youtube.com/watch?v=rFVpSwgCkCo";
+    const videoEnded= () => {
+        document.querySelector(".Video1").style.visibility="hidden";
+        document.querySelector(".videoEpisode1").style.visibility="hidden";
+        document.querySelector(".btnRetour").style.visibility="hidden";
+        document.querySelector(".imgVideo").style.visibility="visible";
+        
+    }
+    const lancerVideo = () => {
+        document.querySelector(".imgVideo").style.visibility="hidden";
+        document.querySelector(".Video1").style.visibility="visible";
+        document.querySelector(".videoEpisode1").style.visibility="visible";
+        document.querySelector(".btnRetour").style.visibility="visible";
+
+
+    }
+
+    const btnRetour = () => {
+        document.querySelector(".imgVideo").style.visibility="visible";
+        document.querySelector(".Video1").style.visibility="hidden";
+        document.querySelector(".videoEpisode1").style.visibility="hidden";
+        document.querySelector(".btnRetour").style.visibility="hidden";
+    }
 
     const [langue, setLangue] = useState('fr');
 
@@ -28,7 +53,7 @@ function Episode4() {
             <div className='episode'>
                 <div className='header'>
                 <img src={getTranslation("Accueil")} alt="" onClick={accueil} className='retourAccueil'/>
-                    <p onClick={previous}>{getTranslation("Precedent")}</p>
+                <img src={getTranslation("Precedent")} alt="" onClick={previous} className='epPrecedent'/>
                     
                 </div>
                 <div>
@@ -42,7 +67,18 @@ function Episode4() {
                     
                         <img src="assets/img/fr/episodes/episode4/imgs4A.png" alt="bouteille" className='imgs4A' />
                     </div>
-                    <img  src="assets/img/fr/episodes/episode1/VideoEp1.png" alt='' className="imgVideo" />
+                    <img   src={getTranslation("video4Img")} alt="texte 1" className="imgVideo" onClick={lancerVideo} />
+                    <div className='Video1'>
+                    <ReactPlayer
+                    url={videoTest}
+                    controls
+                    width="90%"
+                    height="85%"
+                    className="videoEpisode1"
+                    onEnded={videoEnded}
+                    />
+                    <img src="assets/img/fr/retour.png" alt="" onClick={btnRetour} className='btnRetour' />
+                </div> 
 
                 </div>
                 <img   src={getTranslation("Ep4Partie1")} alt="Problématique" className="partie1" />
