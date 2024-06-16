@@ -56,7 +56,7 @@ body{
 
 .episode3{
     position: fixed;
-    left: 1050px;
+    right: 20%;
     top: 263px
 
 
@@ -71,7 +71,7 @@ body{
 
 .episode4{
     position: fixed;
-    left: 1442px;
+    right: 4%;
     top: 136px;
 
 }
@@ -173,13 +173,13 @@ body{
 }
 .digestif{
     position: fixed;
-    left: 975px;
+    right: 35%;
     top: 333px
 }
 
 .digestif2{
     position: fixed;
-    left: 985px;
+    right: 33%;
     top: 440px;
     transform: rotate(-60deg);
 
@@ -190,13 +190,13 @@ body{
 .irish_coffee{
     position: fixed;
     top: 150px;
-    left: 1390px;
+    right: 17%;
 }
 
 .irish_coffee2{
     position: fixed;
     top: 250px;
-    left: 1350px;
+    right: 18%;
     transform: rotate(60deg);
 
 }
