@@ -88,33 +88,33 @@ function Episode3() {
 
 
                 <img   src={getTranslation("Ep3Partie1")} alt="Problématique" className="Ep3Partie1" />
-                <div>
+                <div className='ep1txt1Container'>
                    
                         
-                <img   src={getTranslation("Ep3txt1")} alt="texte 1"  />
+                <img   src={getTranslation("Ep3txt1")} alt="texte 1" className='ep1txt1'  />
                      
-                    <img src="assets/img/fr/episodes/episode3/imgs3B.png" alt="" />
+                    <img src="assets/img/fr/episodes/episode3/imgs3B.png" alt="" className='ep1txt1img' />
 
 
                 </div>
                 <img   src={getTranslation("Ep3Partie2")} alt="Problématique" className="Ep3Partie2" />
 
-                <div>
-                    <img src="assets/img/fr/episodes/episode3/imgs3C.png" alt="" />
-                    <img   src={getTranslation("Ep3txt2")} alt="texte 1"  />
+                <div className='ep1txt1Container'>
+                    <img src="assets/img/fr/episodes/episode3/imgs3C.png" alt="" className='ep1txt1img'/>
+                    <img   src={getTranslation("Ep3txt2")} alt="texte 1"  className='ep1txt1' />
                 </div>
                 <img   src={getTranslation("Ep3Partie3")} alt="Problématique" className="Ep3Partie3" />
-                <div className='parties'> 
-                <img   src={getTranslation("Ep3txt3")} alt="texte 1"  />
+                <div className='parties ep1txt1Container'> 
+                <img   src={getTranslation("Ep3txt3")} alt="texte 1" className='ep3txt3' />
                      
-                    <img src="assets/img/fr/episodes/episode3/imgs3D.png" alt="" className='imgpartie4' />
+                    <img src="assets/img/fr/episodes/episode3/imgs3D.png" alt="" className=' ep1txt1img' />
 
                 </div>
                 <img   src={getTranslation("Ep3Partie4")} alt="Problématique" className="Ep3Partie4" />
 
-                <div className='partie4'>
-                    <img src="assets/img/fr/episodes/episode3/imgs3E.png" alt="" className='imgpartie4'/>
-                    <img   src={getTranslation("Ep3txt4")} alt="texte 1" className="Ep3PTxt4" />
+                <div className='partie4 ep1txt1Container'>
+                    <img src="assets/img/fr/episodes/episode3/imgs3E.png" alt="" className=' ep1txt1img ep3txt4img'/>
+                    <img   src={getTranslation("Ep3txt4")} alt="texte 1" className=" ep1txt1 ep3txt4" />
 
                 </div>
 

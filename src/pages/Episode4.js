@@ -83,21 +83,21 @@ function Episode4() {
                 </div>
                 <img   src={getTranslation("Ep4Partie1")} alt="Problématique" className="partie1" />
 
-                <div>
+                <div  className='ep1txt1Container'> 
                    
                         
-                <img   src={getTranslation("Ep4Txt1")} alt="Problématique" className="" />
+                <img   src={getTranslation("Ep4Txt1")} alt="Problématique" className="ep1txt1" />
                      
-                    <img src="assets/img/fr/episodes/episode4/imgs4B.png" alt="" />
+                    <img src="assets/img/fr/episodes/episode4/imgs4B.png" alt="" className='ep1txt1img' />
 
 
                 </div>
                 <img   src={getTranslation("Ep4Partie2")} alt="Problématique" className="partie2" />
 
-                <div className='Ep4partie2'>
+                <div className='Ep4partie2 ep1txt1Container'>
                         
-                    <img src="assets/img/fr/episodes/episode4/imgs4C.png" alt="" className='imgPartie2' />
-                    <img   src={getTranslation("Ep4Txt2")} alt="Problématique" className="txtPartie2" />
+                    <img src="assets/img/fr/episodes/episode4/imgs4C.png" alt="" className='imgPartie2 ep1txt1img' />
+                    <img   src={getTranslation("Ep4Txt2")} alt="Problématique" className="txtPartie2 ep1txt1" />
 
                 </div>
              

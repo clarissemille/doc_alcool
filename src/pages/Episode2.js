@@ -88,17 +88,17 @@ function Episode2() {
 
                 </div>
                     <img src="assets/img/fr/episodes/episode2/imgs2B.png" alt="" className='image2' />
-                <div className='TxtEp2'>
+                <div className='TxtEp2 ep1txt1Container'>
                    
                         
-                <img   src={getTranslation("Ep2txt2")} alt="texte 1"  />
-                    <img src="assets/img/fr/episodes/episode2/imgs2C.png" alt="" className='ep2img'/>
+                <img   src={getTranslation("Ep2txt2")} alt="texte 1" className='ep1txt1'  />
+                    <img src="assets/img/fr/episodes/episode2/imgs2C.png" alt="" className='ep1txt1img'/>
 
 
                 </div>
-                <div className='TxtEp2'>
-                    <img src="assets/img/fr/episodes/episode2/imgs2D.png" alt="" className='ep2img' />
-                    <img   src={getTranslation("Ep2txt2")} alt="texte 1"  />
+                <div className='TxtEp2 ep1txt1Container'>
+                    <img src="assets/img/fr/episodes/episode2/imgs2D.png" alt="" className='ep1txt1img' />
+                    <img   src={getTranslation("Ep2txt2")} alt="texte 1" className='ep1txt1' />
                      
 
                

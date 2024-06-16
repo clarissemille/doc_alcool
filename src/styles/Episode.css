@@ -113,3 +113,21 @@
    justify-content: space-between;
    align-items: center;
 }
+
+.ep1txt1Container{
+   width: 100%;
+   height: 50%;
+   display: flex;
+   justify-content: space-around;
+}
+
+.ep1txt1{
+   width: 55%;
+   height: 90%;
+
+}
+
+.ep1txt1img{
+   width: 40%;
+
+}
