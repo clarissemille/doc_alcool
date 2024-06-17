@@ -7,7 +7,7 @@ import ReactPlayer from 'react-player';
 
 function Episode1() {
     const navigate = useNavigate();
-    const videoTest = "https://www.youtube.com/watch?v=rFVpSwgCkCo";
+    const videoTest = "https://www.youtube.com/watch?v=jSBDsuvLSr4";
     const videoEnded= () => {
         document.querySelector(".Video1").style.visibility="hidden";
         document.querySelector(".videoEpisode1").style.visibility="hidden";
