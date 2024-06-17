@@ -8,7 +8,7 @@ import Langues from './Langues';
 
 
 function Video(){
-    const videoTest = "https://www.youtube.com/watch?v=rFVpSwgCkCo";
+    const videoTest = "https://www.youtube.com/watch?v=XnpzbUkY6rc";
     const navigate = useNavigate();
     const videoEnded= () => {
         navigate('/home')
