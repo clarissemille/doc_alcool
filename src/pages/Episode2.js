@@ -43,6 +43,7 @@ function Episode2() {
 
     const accueil = () => {
         navigate('/home')
+
     }
     const previous = () => {
         navigate('/episode1')
@@ -105,7 +106,6 @@ function Episode2() {
 
 
                 </div>
-
              
 
             </div>
